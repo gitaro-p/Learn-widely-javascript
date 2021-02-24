@@ -37,4 +37,15 @@ if (x > 10) {
 > if ({ name: "オブジェクト" }) {
     console.log("この行は実行されます");
 }
+
+・else文
+> const num = 1;
+if (num > 20) {
+    console.log(`numは20より大きいです: ${num}`);
+} else {
+    console.log(`numは20以下です: ${num}`);
+}
+
+条件に一致しなかった場合の処理は、else文を使う。
+変数numの数値が10より大きいかを判定し、numの値は10以下であるため、else文で書いた処理が実行される。
 */
