@@ -17,4 +17,20 @@ while (<条件式>)
 3
 2
 1
+
+・do-while文
+do {
+    実行する文;
+} while (条件式);
+
+do-while文の実行フロー
+1.実行する文を実行
+2.条件式の評価結果がtrueなら次へ、falseなら終了
+3.1へ戻る
+
+> const x = 1000;
+do {
+    console.log(x); // => 1000
+} while (x < 10);
+1000
 */
