@@ -40,8 +40,14 @@ for (初期化式; 条件式; 増分式) {
   実行する文;
 }
 
-> for(let i = 0; i < 3; i++) console.log(i)
+> for (let i = 0; i < 3; i++) console.log(i)
 0
 1
 2
 
+const array = [1, 2, 3];
+array.forEach(currentValue => {
+    // 配列の要素ごとに呼び出される処理
+});
+
+*/
